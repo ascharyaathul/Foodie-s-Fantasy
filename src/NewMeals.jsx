@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import NavBar from './components/NavBar'
 import axios from 'axios'
-import { use } from 'react';
 
 export default function NewMeals() {
     const [items, setitems] = useState({});
     console.log(items);
+    const[Next,setNext]= useState(true);
+    console.log(Next);
+    
+    
+    
+    
     
 
     useEffect(()=>{
@@ -18,7 +23,22 @@ export default function NewMeals() {
 
         })
 
-    },[]);
+    },[Next]);
+    const NextReciepy = ()=>{
+      axios 
+      .get("https://www.themealdb.com/api/json/v1/1/random.php",)
+      .then((response)=>{
+          console.log(response);
+          setitems(response.data.meals[0]);
+          
+
+      })
+      
+      
+      
+
+
+    };
 
 
 
@@ -40,6 +60,7 @@ export default function NewMeals() {
             <div style={{position:"absolute",marginLeft:"50px"}}>
             {items.strCategory}
             </div>
+            <input type="button" style={{marginTop:"20px",marginRight:"500px",backgroundColor:"black",color:"white"}}onClick={NextReciepy} value="Next"  />
            
             <img
               src={items.strMealThumb}

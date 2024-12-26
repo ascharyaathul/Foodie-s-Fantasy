@@ -19,7 +19,7 @@ function App() {
     <Route path="/" element={<HomePage/>}/>
     <Route path="Category" element={<Category/>}/>
     <Route path="NewMeals" element={<NewMeals/>}/>
-    <Route path="SingleView/" element={<SingleView/>}/>
+    <Route path="SingleView/:id" element={<SingleView/>}/>
     <Route path="Incredients" element={<Incredients/>}/>
     <Route path="TastyFoods"element={<TastyFoods/>}/>
 
