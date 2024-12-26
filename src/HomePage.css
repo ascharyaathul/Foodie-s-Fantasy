@@ -1,0 +1,207 @@
+.banner {
+  width: 95vw;
+  height: 96vh;
+  margin-left: 20px;
+  border-radius: 58px;
+  margin-top: 24px;
+  background-color: rgb(242, 215, 135);
+  background-image: url("https://assets.nicepagecdn.com/11a8ddce/4267640/images/vegetables-set-left-black-slate.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+}
+
+.bannercircle {
+  width: 196px;
+  height: 196px;
+  border-radius: 50%;
+  background-color: #62ff4d;
+  margin-left: 12px;
+  padding-top: 20px;
+
+}
+
+.body {
+  background-color: bisque;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 0;
+  margin-left: 351px;
+
+}
+
+.h1 {
+  font-size: medium;
+
+}
+
+.h2 {
+  margin-left: 73px;
+
+  margin-bottom: 20px;
+
+}
+
+.h6 {
+  margin-top: 4px;
+  margin-left: 38px;
+  font-size: 35px;
+
+}
+
+.bannerlast {
+  width: 50vw;
+  height: 50vh;
+  font: bolder;
+  color: whitesmoke;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  color: rgb(247, 150, 66);
+  font-size: large;
+}
+
+.nav-link {
+  transition: all .2s ease-in;
+
+}
+
+sec2 .menuard {
+  border: none;
+
+}
+
+.card-img-top1 {
+  width: 270px;
+  height: 303px;
+  border-radius: 20px;
+
+
+}
+
+/* .button{
+        width:150px;
+        height: 50px;
+        
+      } */
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  background-color: #c89b14;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #b40f0f;
+  transform: scale(1.05);
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.button-container {
+  text-align: center;
+}
+
+.restaurent {
+  margin-left: 3px;
+  margin-top: 151px;
+}
+
+.card-img-top {
+
+  width: 220px;
+  height: 253px;
+  border-radius: 50px;
+}
+
+.blog-card {
+  background-color: white;
+  padding: 40px;
+  height: 450px;
+  border-radius: 50px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog-button{
+  width: 125px;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: #62ff4d;
+ 
+
+}
+.Circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #62ff4d;
+  margin-left: 20px;
+  margin-top: 50px;
+
+}
+.BannerIcon{
+  width: 32vw;
+  height: vh;
+ 
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 50px;
+}
+
+
+.message-box {
+  display: flex;
+  align-items: center;
+  background-color: #d4edda; /* Light green background */
+  color: #155724; /* Dark green text */
+  padding: 15px;
+  border: 1px solid #c3e6cb; /* Border to match the background */
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.message-box .icon {
+  margin-right: 10px;
+  font-size: 24px;
+}
+.Msg{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #62ff4d;
+  margin-left: -125px;
+  margin-top: 20px;
+}
+.Location{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #62ff4d;
+  margin-left: -125px;
+  margin-top: 60px;
+}
+.Call{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #62ff4d;
+  margin-left: -125px;
+  margin-top: 50px
+}
