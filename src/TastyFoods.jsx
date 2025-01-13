@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 
 export default function TastyFoods() {
 
-const[Name, setName]= useState({});
+const[Name, setName]= useState([]);
 console.log(Name);
 
 
@@ -12,7 +12,7 @@ axios
 .get("https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata",)
 .then((response)=>{
 console.log(response);
-setName(response.data.meals[0])
+setName(response.data.meals[1])
 
 
 
